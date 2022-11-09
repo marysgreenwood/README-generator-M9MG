@@ -1,3 +1,3 @@
-# Professional README Generator Starter Code
+README generator
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+Created in fulfillment of UNC Coding Bootcamp Module 9 Challenge requirements.
