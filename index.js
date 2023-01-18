@@ -4,7 +4,7 @@ const path = require('path');
 const inquirer = require('inquirer');
 //const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// array of questions for user input
 //const questions = [];
 inquirer.prompt ([
     {
@@ -38,7 +38,7 @@ inquirer.prompt ([
         message: 'Please enter test instructions for your project.'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Choose a license for your project',
         choices: [
@@ -58,14 +58,32 @@ inquirer.prompt ([
                 name: 'BSD 2-clause "Simplified" license',
             }
         ],
-        validate(answer) {
-            return answer
-        }
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your github username'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email address'
     }
+
 ])
 .then((data)=> {
     console.log (JSON.stringify(data))
 })
+// Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
+// function renderLicenseBadge(license) {
+//   if (license !== 'None') {
+//     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+//   }
+//   return '';
+// }
+
+// renderLicenseBadge (data.license);
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
