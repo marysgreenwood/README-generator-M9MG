@@ -4,6 +4,13 @@
 ## Description
 This application prompts the user for information about their project and generates a README file using that information.
 
+## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Questions](#questions)
+
 ## Installation
 User must install node js and inquirer to use this application.
 
