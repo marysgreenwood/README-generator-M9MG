@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+//packages needed for this application
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
-//const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user input
 //const questions = [];
@@ -72,20 +72,15 @@ inquirer.prompt ([
 
 ])
 .then((data)=> {
-    console.log (JSON.stringify(data))
+    console.log (JSON.stringify(data));
+    fs.writeFile ('README.md', generateMarkdown(data))
 })
-// Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) {
-//   if (license !== 'None') {
-//     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
-//   }
-//   return '';
-// }
 
-// renderLicenseBadge (data.license);
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+
+// function to write README file
+// function writeToFile(fileName, data) {
+//     fs.writeFile ('README.md')
+// }
 
 // TODO: Create a function to initialize app
 function init() {}
