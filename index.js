@@ -45,16 +45,20 @@ const questions = [
                 name: 'None'
             }, 
             {
-                name: 'Apache license 2.0',
+                name: 'Apache 2.0',
+                value: 'Apache_2.0-blue'
             },
             {
-                name: 'GNU General Public License v3.0',
+                name: 'GNU General Public License, version 3',
+                value: 'GPLv3-blue'
             },
             {
                 name: 'MIT',
+                value: 'MIT-yellow'
             },
             {
-                name: 'BSD 2-clause "Simplified" license',
+                name: 'BSD 2-clause',
+                value: 'BSD_2--Clause-orange'
             }
         ],
     },
@@ -69,11 +73,7 @@ const questions = [
         message: 'Please enter your email address'
     }
 
-]
-// .then((data)=> {
-//     console.log (JSON.stringify(data));
-//     fs.writeFile ('README.md', generateMarkdown(data))
-// })
+];
 
 
 // function to write README file
@@ -81,14 +81,14 @@ function writeToFile(fileName, data) {
     fs.writeFile (fileName, data, (err) => {
         err ? console.error(err) : console.log('Success!')
     })
-}
+};
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt (questions). then ((data) => {
         writeToFile('./output/README.md', generateMarkdown(data))
     } )
-}
+};
 
 // Function call to initialize app
 init();
