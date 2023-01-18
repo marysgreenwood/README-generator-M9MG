@@ -16,6 +16,7 @@ User must install node js and inquirer to use this application.
 
 ## Usage
 Enter 'node index.js' in the commandline to run this application.
+Demo: https://app.castify.com/view/8823a033-fda4-4680-a420-429721a50aae
 
 ## License
 

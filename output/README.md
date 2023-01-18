@@ -1,8 +1,8 @@
-# a
+# README generator
 ![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 ## Description
-a
+Users provide data about projects which the application uses to generate a README document
 
 ## Table of Contents
 
@@ -14,22 +14,22 @@ a
   * [Questions](#questions)
 
 ## Installation
-a
+Install node js and inquirer
 
 ## Usage
-a
+Run this project in the command line
 
 ## Contributing
-a
+N/A
 
 ## Tests
-a
+N/A
 
 ## License
-This project is licensed under the undefined license.
+This project is licensed under the Apache-2.0 license.
 https://opensource.org/licenses/Apache-2.0
 
 ## Questions
-Github: https://github.com/a
-Email: a
+Github: https://github.com/marysgreenwood
+Email: example@email.com
 
