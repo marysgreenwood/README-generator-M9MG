@@ -1,33 +1,22 @@
-# a
-![GitHub license](https://img.shields.io/badge/license-BSD 2-clause "Simplified" license-blue.svg)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-
+# README generator
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-n
+This application prompts the user for information about their project and generates a README file using that information.
 
-##Installation
-d
+## Installation
+User must install node js and inquirer to use this application.
 
-##Usage
-s
+## Usage
+Enter 'node index.js' in the commandline to run this application.
 
-##Contribution guidelines
-v
-
-##Test instructions
-z
-
-##License
 ## License
 
-This project is licensed under the BSD 2-clause "Simplified" license license.
+This project is licensed under the MIT license.
+https://opensource.org/licenses/MIT
 
-* [License](#license)
+## Questions
 
+Github: https://github.com/marysgreenwood
 
-##Questions
-Github: https://github.com/t
-Email: g
 

@@ -46,19 +46,19 @@ const questions = [
             }, 
             {
                 name: 'Apache 2.0',
-                value: 'Apache_2.0-blue'
+                value: 'Apache-2.0'
             },
             {
                 name: 'GNU General Public License, version 3',
-                value: 'GPLv3-blue'
+                value: 'GPLv3'
             },
             {
                 name: 'MIT',
-                value: 'MIT-yellow'
+                value: 'MIT'
             },
             {
-                name: 'BSD 2-clause',
-                value: 'BSD_2--Clause-orange'
+                name: 'BSD 3-clause',
+                value: 'BSD-3-clause'
             }
         ],
     },
